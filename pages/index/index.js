@@ -48,7 +48,9 @@ Page({
     })
   },
   click(){
-    this.se
+    wx.navigateTo({
+      url: '../info/info',
+    })
   }
 
 })
